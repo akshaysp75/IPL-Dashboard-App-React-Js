@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: linear-gradient('#d91c1f', '#a4261d', '#1e293b');
+  background-size: cover;
+  width: 100vw;
+}
+.teamMatches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.teamMatch-banner-img {
+  height: 40vh;
+  width: 100%;
+}
+
+.latestMatches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  list-style-type: none;
+}
+.heading {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  color: white;
+}
+.recentMatches-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+}

@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.MatchCard-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Bree Serif';
+  margin: 5px;
+  padding: 15px;
+  max-width: 100px;
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+.logo-img {
+  height: 30px;
+  width: 30px;
+}
+
+.team-name {
+  font-size: 8px;
+  text-align: center;
+}
+
+.result {
+  font-size: 8px;
+  text-align: center;
+}
+
+.match-won-style {
+  color: green;
+  font-size: 8px;
+  text-align: center;
+}
+
+.match-lost-style {
+  color: red;
+  font-size: 8px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .MatchCard-container {
+    max-width: 400px;
+    padding: 50px;
+    margin: 30px;
+    margin-left: 0px;
+  }
+  .logo-img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  .team-name {
+    font-size: 30px;
+    align-self: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .result {
+    font-size: 20px;
+    align-self: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .match-won-style {
+    color: green;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .match-lost-style {
+    color: red;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.latestMatch-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.logo-nameDate-container {
+  display: flex;
+}
+.name-date-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading-style {
+  font-size: 15px;
+}
+.para-style {
+  font-size: 15px;
+}
+.logo-image {
+  height: 100px;
+  width: 100px;
+}
+
+.innings-info-container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-top: 2px solid #475569;
+}
+
+.inningStyle {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width: 768px) {
+  .latestMatch-container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .innings-info-container {
+    border-top: none;
+    margin-left: 40px;
+  }
+  .heading-style {
+    font-size: 25px;
+  }
+  .logo-image {
+    height: 200px;
+    width: 200px;
+  }
+  .logo-nameDate-container {
+    margin-top: 20px;
+    justify-content: center;
+
+    padding: 20px;
+  }
+
+  .para-style {
+    font-size: 20px;
+  }
+  .name-date-container {
+    margin-right: 300px;
+  }
+}

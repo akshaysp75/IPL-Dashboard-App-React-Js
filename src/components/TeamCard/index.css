@@ -1,0 +1,39 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.ipl-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 6px;
+  margin: 5px;
+  padding: 10px;
+  max-width: 120px;
+  list-style-type: none;
+}
+.card-image {
+  height: 30px;
+  width: 30px;
+}
+.card-teamName {
+  font-size: 7px;
+  font-family: 'Bree Serif';
+  color: white;
+  padding-left: 10px;
+}
+@media (min-width: 768px) {
+  .ipl-card-container {
+    margin: 10px;
+    max-width: 250px;
+    height: 150px;
+  }
+  .card-teamName {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+  .card-image {
+    height: 50px;
+    width: 50px;
+  }
+}
